@@ -156,7 +156,7 @@ is for
 
    **Alternative name**
 
-   1. **DNS:** paysrsvn.insidela.org
+   1. **DNS:** printerlogic.insidela.org
 
 .. image:: img/step5-subjectcsr.jpg
 
@@ -216,3 +216,34 @@ Step 6
 3. Finally send it to your team who manages your SSL certificates requests, in this case, ITA-DSA
 
 .. image:: img/step6-verify.jpg
+
+
+
+Step 7 (Optional)
+####################
+
+To verify the validility of your certificate request (CSR)
+
+   1. Open your CSR File in notepad
+
+   .. image:: img/step7-opencsr.jpg
+
+
+   2. Copy the contents of the CSR file
+
+   .. image:: img/step7-copycsr.jpg
+
+
+
+   3. Go to https://ssltools.digicert.com/checker/views/csrCheck.jsp
+
+      1. Paste your CSR file contents on the window
+      2. Click **Check CSR**
+
+      .. image:: img/step7-pastecsr.jpg
+
+
+   4. Verify the information is correct on the **Certificate information** tab
+
+      .. image:: img/step7-verifycsr.jpg
+
